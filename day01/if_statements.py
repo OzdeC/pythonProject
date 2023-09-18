@@ -63,7 +63,19 @@ print('-------------')
 num = 200
 result2 = 'Positive' if num >= 0 else 'Negative'
 
+print(result2)
 
+print('---------------------------------')
+
+score = -300
+
+if 0 <= score <= 100:
+    if score >= 60:
+        print('Passed')
+    else:
+        print('Failed')
+else:
+    print('Invalid Score')
 
 
 
