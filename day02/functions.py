@@ -88,3 +88,24 @@ print(sum(10, 20, 30, 40))
 class Test:
     def method(self):
         pass
+
+
+def concat(a: str, b, c='', d='', e=''):
+    print(f'{a} {b} {c} {d} {e}'.strip())
+
+
+concat('Cydeo', 'School')
+concat('Python', 3, 2.5)
+concat('Python', 3, 2.5, True)
+concat('Python', 3, 2.5, True, False)
+
+
+"""
+1. Declaring
+2. parameters
+3. restricting parameter' data type
+4. setting default value to parameter
+5. restricting return type
+
+Dynamic Typing
+"""
